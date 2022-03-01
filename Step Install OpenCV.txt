@@ -1,0 +1,49 @@
+#---------------------- INTALACAO OPENCV ----------------------#
+
+1.) Baixe e instale Python 3 para Windows executando Windows x86-64 executable installer:
+ 	diretorio>python
+
+	Python 3.7.3 etc
+
+	>>> exit()
+
+2) Instale OpenCV para Python dando os comandos:
+	diretorio> pip install opencv-python
+	diretorio> pip install opencv-contrib-python
+	
+Teste a instalação OpenCV:
+	diretorio> python
+	>>> import cv2
+	>>> print(cv2.__version__)
+	Deve responder algo como:
+	4.1.0.25
+	Para sair:
+	>>> exit()
+
+Teste a instalacao do aruco:
+	diretorio> python
+	>>> import cv2.aruco
+	>>> 
+	>>> exit()
+
+**REFERENCES**
+Detect Aruco - https://github.com/brunopdoliveira/OpenCV/blob/main/Aruco_Detection.py
+Aruco Position - https://github.com/brunopdoliveira/PLCs7_Snap7/blob/main/ArucoPosition%26PLC.py
+Camera Calibration - https://github.com/brunopdoliveira/OpenCV/blob/main/CameraCalib.py
+Snapshots - https://github.com/brunopdoliveira/OpenCV/blob/main/CameraSnapshots.py
+
+Video Reference:
+https://www.youtube.com/watch?v=QV1a1G4lL3U&list=RDCMUC2aPsByptP3HXobjXgsXQsA&index=10
+https://www.youtube.com/watch?v=wlT_0fhGrGg
+https://www.youtube.com/watch?v=iezU2PR0hBk
+https://www.youtube.com/watch?v=XjJ7ujKjQQc&list=PL7EOs-8ZXfMb2qRog9wOa3Ar-EyvRYdrp
+https://www.youtube.com/watch?v=aWmzhmfahh8&list=PL7EOs-8ZXfMb2qRog9wOa3Ar-EyvRYdrp&index=2
+https://www.youtube.com/watch?v=-r94FAce3QE&list=PL7EOs-8ZXfMb2qRog9wOa3Ar-EyvRYdrp&index=3
+https://www.youtube.com/watch?v=k5L4sujOCmk&list=PL7EOs-8ZXfMb2qRog9wOa3Ar-EyvRYdrp&index=4
+https://www.youtube.com/watch?v=k8ZSzofAKTk&list=PL7EOs-8ZXfMb2qRog9wOa3Ar-EyvRYdrp&index=5
+https://www.youtube.com/watch?v=9U0GDix6NiE&list=PL7EOs-8ZXfMb2qRog9wOa3Ar-EyvRYdrp&index=6
+https://www.youtube.com/watch?v=snxigZadK2E&list=PL7EOs-8ZXfMb2qRog9wOa3Ar-EyvRYdrp&index=7
+
+
+
+
